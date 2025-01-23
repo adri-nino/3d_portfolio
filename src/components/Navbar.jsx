@@ -27,6 +27,19 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Full Stack Developer</span>
           </p>
         </Link>
+        <ul className="list-none hidden sm:flex gap-10">
+          {navLinks.map((link) => (
+            <li
+              key={link.id}
+              className={`${
+                active === link.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}
+            >
+              <a hfref={`${link.id}`}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
