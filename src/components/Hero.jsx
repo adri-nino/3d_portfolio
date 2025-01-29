@@ -22,14 +22,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Full Stack Applications <br className="sm:block hidden" />{" "}
             with a passion on front end development.
-            {/* My journey into tech began with the Full-Stack Development Bootcamp
-            at the University of Texas at Austin, where I gained hands-on
-            experience in designing and developing robust applications. With a
-            background in customer service, I bring a unique perspective to
-            problem-solving, prioritizing user-centric design and effective
-            communication. If you're looking for someone who combines technical
-            skills with creativity, dedication, and a collaborative spirit, I'd
-            love to connect. */}
           </p>
         </div>
       </div>
